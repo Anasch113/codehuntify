@@ -1,0 +1,43 @@
+.contact{
+	padding: 50px 11% 40px;
+    background-image: url("../assets/bg.png");
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    
+}
+
+.maincontact{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+	gap: 2rem;
+	align-items: center;
+   
+}
+.contactcontent h5{
+	font-size: 1.1rem;
+	margin-bottom: 20px;
+}
+.contactcontent li{
+	margin-bottom: 12px;
+}
+.contactcontent li a{
+	display: block;
+	font-size: 15px;
+	color: #374151;
+	font-weight: 400;
+	transition: all .45s ease;
+}
+.contactcontent li a:hover{
+	color: var(--text-color);
+	transform: translateX(-5px);
+}
+
+.endtext p{
+
+	text-align: center;
+	padding: 7px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: var(--text-color);
+}
